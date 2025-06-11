@@ -28,3 +28,7 @@ def smoothsort(arr):
     
     print("Arreglo ordenado:", arr)
     return arr
+
+if __name__ == "__main__":
+    arreglo = [4, 1, 3]
+    smoothsort(arreglo)
